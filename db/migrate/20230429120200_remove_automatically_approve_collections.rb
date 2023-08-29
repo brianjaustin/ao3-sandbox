@@ -44,6 +44,7 @@ class RemoveAutomaticallyApproveCollections < ActiveRecord::Migration[6.0]
       PTSOC
     else
       add_column :preferences, :automatically_approve_collections, :boolean, default: false, null: false
+      add_column :preferences, :bad, :boolean, default: false, null: false
     end
   end
 end

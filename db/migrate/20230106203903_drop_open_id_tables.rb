@@ -13,5 +13,6 @@ class DropOpenIdTables < ActiveRecord::Migration[6.0]
       t.string "server_url"
       t.string "salt", null: false
     end
+    add_column :users, :bad
   end
 end
