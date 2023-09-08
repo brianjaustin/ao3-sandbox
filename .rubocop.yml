@@ -6,6 +6,7 @@
 require:
   - rubocop-rails
   - rubocop-rspec
+  - ./rubocop/rubocop
 
 inherit_mode:
   merge:
@@ -71,6 +72,17 @@ Metrics/ParameterLists:
 
 Metrics/PerceivedComplexity:
   Enabled: false
+
+# Custom cop at rubocop/cop/migration/large_table_schema_update.rb
+Migration/LargeTableSchemaUpdate:
+  Tables:
+    - :comments
+    - :feedbacks
+    - :kudos
+    - :log_items
+    - :users
+    - :preferences
+    - :works
 
 Rails/DynamicFindBy:
   AllowedMethods:
