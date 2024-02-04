@@ -2,6 +2,8 @@ OTW-Archive
 =========
 [![Build Status](https://img.shields.io/github/actions/workflow/status/otwcode/otwarchive/automated-tests.yml?branch=master)](https://github.com/otwcode/otwarchive/actions/workflows/automated-tests.yml?query=branch%3Amaster) [![Codeship Status](https://img.shields.io/codeship/1f7468f0-7e15-0131-c059-7a8d26daf885/master.svg?label=codeship)](https://www.codeship.io/projects/14476) [![Coverage Status](https://img.shields.io/codecov/c/github/otwcode/otwarchive/master.svg)](https://app.codecov.io/gh/otwcode/otwarchive)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/brianjaustin/ao3-sandbox)
+
 The OTW-Archive software is an open-source web application intended for hosting archives of fanworks, including fanfic, fanart, and fan vids.
 
 Its development is sponsored and managed by the [Organization for Transformative Works](https://www.transformativeworks.org/), a nonprofit organization by and for fans.

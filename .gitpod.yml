@@ -1,0 +1,7 @@
+tasks:
+  - init: |
+      script/docker/init.sh
+
+ports:
+  - port: 3000
+    onOpen: open-browser
