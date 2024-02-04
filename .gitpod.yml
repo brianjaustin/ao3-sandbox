@@ -1,7 +1,3 @@
 tasks:
   - init: script/docker/init.sh && docker compose --profile dev down
-    command: docker compose --profile dev up --build -d
-
-ports:
-  - port: 3000
-    onOpen: open-browser
+    command: docker compose --profile dev up --build
