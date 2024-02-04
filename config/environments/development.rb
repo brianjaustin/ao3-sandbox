@@ -91,5 +91,5 @@ Rails.application.configure do
 
   # Allow access in remote environments like GitHub Codespaces.
   config.hosts << ".app.github.dev"
-  config.hosts << ENV["GITPOD_WORKSPACE_CLUSTER_HOST"] if ENV["GITPOD_WORKSPACE_CLUSTER_HOST"]
+  config.hosts << ".#{ENV["GITPOD_WORKSPACE_CLUSTER_HOST"]}" if ENV["GITPOD_WORKSPACE_CLUSTER_HOST"]
 end
