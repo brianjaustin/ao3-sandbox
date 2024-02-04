@@ -1,6 +1,8 @@
 tasks:
   - init: |
-      script/docker/init.sh
+      script/docker/init.sh && docker compose --profile dev down
+  - command: |
+      docker compose --profile dev up --build -d
 
 ports:
   - port: 3000
