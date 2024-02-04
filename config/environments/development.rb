@@ -88,4 +88,7 @@ Rails.application.configure do
     Bullet.rails_logger = true
     Bullet.counter_cache_enable = false
   end
+
+  # Allow access in remote environments like GitHub Codespaces.
+  config.hosts += [".app.github.dev"]
 end
